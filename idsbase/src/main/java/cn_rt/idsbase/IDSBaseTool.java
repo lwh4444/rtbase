@@ -22,4 +22,8 @@ public class IDSBaseTool {
             throw new NullPointerException("application context is null,initialization in your application");
         return mContext;
     }
+
+    public static ArrayList<Activity> getActivities() {
+        return activities;
+    }
 }
