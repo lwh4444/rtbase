@@ -1,0 +1,3 @@
+include ':idsbase'
+include ':app'
+rootProject.name = "rtbase"
